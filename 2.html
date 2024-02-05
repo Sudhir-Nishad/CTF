@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Ctf
+        </title>
+    </head>
+    <style>
+        body
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: black;
+            gap: 30px;
+        }
+        .pic_container
+        {
+            position: relative;
+            width: 70%;
+            height: 70%;
+            background: url("google-ctf-banner.jpg");
+            background-position: center;
+            border-radius: 20px;
+            box-shadow: 0px 0px 20px white;
+            /* top: 40px; */
+        }
+        #myDiv
+        {
+            display: none;
+            height: 40px;
+            width: 20%;
+            background-color: black;
+            position: relative;
+            color: white;
+            box-sizing: border-box;
+            /* display: flex; */
+            text-align: center;
+            box-sizing: border-box;
+            padding-top: 10px;
+            font-size: 20px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-decoration: none;
+            /* transition: 5s; */
+            border-radius: 10px;
+            box-shadow: 0px 0px 30px green;
+        }
+        .text
+        {
+            color: red;
+            font-size: 50px;
+        }
+    </style>
+    <body>
+        <div class="pic_container">
+
+        </div>
+        <div class="text">
+            Ruko jara sabr kro !!!
+        </div>
+        <a href="3.html" id="myDiv" >
+            Abhi tk ni mila kya !!
+        </a>
+    </body>
+    <script>
+        setTimeout(function() {
+        document.getElementById("myDiv").style.display = "block";
+        }, 120000);
+        
+
+
+    </script>
+</html>
